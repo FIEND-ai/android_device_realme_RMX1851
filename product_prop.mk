@@ -20,6 +20,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PRODUCT_PROPERTIES += \
    vendor.bluetooth.soc=cherokee
 
+# BPF
+PRODUCT_PRODUCT_PROPERTIES += \
+   ro.kernel.ebpf.supported=true
+
 # Camera
 PRODUCT_PRODUCT_PROPERTIES += \
    persist.camera.HAL3.enabled=1
